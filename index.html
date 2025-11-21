@@ -4,38 +4,27 @@
     <title>Sum Two Numbers</title>
 </head>
 <body>
-    <h2> add two numbers</h2>
-	<input type="number" id="num1" placeholder="enter first number">
-	<input type="number" id="num2" placeholder="enter second number">
-	<button onclick="calculateSum()">Calculate Sum</button>
-	<p>Result: <span id="result"></span></p>
+    <h2>Add Two Numbers</h2>
+    <input type="number" id="num1" placeholder="Enter first number">
+    <input type="number" id="num2" placeholder="Enter second number">
+    <button onclick="calculateSum()">Calculate Sum</button>
+    <p>Result: <span id="result"></span></p>
 	
+  
 	<script>
-	        Function calculateSum() {
-			    // Get the values from the input fields
-				let num1 = parseFloat(document.getElementById('num1').value);
-				let num2 = parseFloat(document.getElementById('num2").value);
-				
-				// calculate the sum
-				let sum = num1 + num2;
-				
-				//display the result
-				Document.getElementById('result").textContent = sum;
-			}
-
-										
-    </scipt>
+        function calculateSum() {
+            // Get the values from the input fields
+            let num1 = parseFloat(document.getElementById('num1').value);
+            let num2 = parseFloat(document.getElementById('num2').value);
+            
+            // Calculate the sum
+            let sum = num1 + num2;
+            
+            // Display the result
+            document.getElementById('result').textContent = sum;
+        }
+		
+    </script>
 </body>
 </html>
-			  
-
-
-
-
-
-
-
-
-
-
 
